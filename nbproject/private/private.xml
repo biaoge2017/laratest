@@ -3,19 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/E:/largon/laragon/www/laratest/app/Models/User.php</file>
             <file>file:/E:/largon/laragon/www/laratest/bootstrap/helpers.php</file>
             <file>file:/E:/largon/laragon/www/laratest/config/database.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/routes/web.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/register.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/users/show.blade.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/_header.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/bootstrap/app.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/app.blade.php</file>
             <file>file:/E:/largon/laragon/www/laratest/.env</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/PagesController.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/_footer.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/welcome.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/assets/sass/app.scss</file>
-            <file>file:/E:/largon/laragon/www/laratest/config/cache.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/config/auth.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Handlers/ImageUploadHandler.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/UsersController.php</file>
             <file>file:/E:/largon/laragon/www/laratest/config/app.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/login.blade.php</file>
         </group>
