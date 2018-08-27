@@ -6,16 +6,30 @@
             <file>file:/E:/largon/laragon/www/laratest/app/Models/User.php</file>
             <file>file:/E:/largon/laragon/www/laratest/bootstrap/helpers.php</file>
             <file>file:/E:/largon/laragon/www/laratest/config/database.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/register.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/users/show.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Models/Topic.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_topic_list.blade.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/_header.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/app.blade.php</file>
             <file>file:/E:/largon/laragon/www/laratest/.env</file>
-            <file>file:/E:/largon/laragon/www/laratest/config/auth.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Handlers/ImageUploadHandler.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/database/factories/TopicFactory.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/database/seeds/TopicsTableSeeder.php</file>
             <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/UsersController.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/database/seeds/UsersTableSeeder.php</file>
             <file>file:/E:/largon/laragon/www/laratest/config/app.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/login.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/config/debugbar.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/register.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/routes/web.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Policies/UserPolicy.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/users/show.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/app.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/config/auth.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/database/seeds/DatabaseSeeder.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/index.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Handlers/ImageUploadHandler.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/assets/sass/app.scss</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/TopicsController.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_sidebar.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/CategoriesController.php</file>
         </group>
     </open-files>
 </project-private>
