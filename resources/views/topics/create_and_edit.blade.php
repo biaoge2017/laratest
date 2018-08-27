@@ -34,10 +34,7 @@
                 	<label for="title-field">Title</label>
                 	<input class="form-control" type="text" name="title" id="title-field" value="{{ old('title', $topic->title ) }}" />
                 </div> 
-                <div class="form-group">
-                	<label for="body-field">Body</label>
-                	<textarea name="body" id="body-field" class="form-control"  placeholder="请填入至少三个字符的内容。"  rows="3">{{ old('body', $topic->body ) }}</textarea>
-                </div> 
+
                 <div class="form-group">
                      <select class="form-control" name="category_id" required>
                             <option value="" hidden disabled selected>请选择分类</option>
@@ -46,7 +43,10 @@
                             @endforeach
                         </select>
                 </div> 
-
+                <div class="form-group">
+                	<label for="body-field">Body</label>
+                	<textarea name="body" id="editor" class="form-control"  placeholder="请填入至少三个字符的内容。"  rows="3">{{ old('body', $topic->body ) }}</textarea>
+                </div> 
 
                     <div class="well well-sm">
                         <button type="submit" class="btn btn-primary">保存</button>
@@ -59,3 +59,23 @@
 </div>
 
 @endsection
+
+@section('styles')
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/simditor.css') }}">
+@stop
+
+@section('scripts')
+    <script type="text/javascript"  src="{{ asset('js/module.js') }}"></script>
+    <script type="text/javascript"  src="{{ asset('js/hotkeys.js') }}"></script>
+    <script type="text/javascript"  src="{{ asset('js/uploader.js') }}"></script>
+    <script type="text/javascript"  src="{{ asset('js/simditor.js') }}"></script>
+
+    <script>
+    $(document).ready(function(){
+        var editor = new Simditor({
+            textarea: $('#editor')
+        });
+    });
+    </script>
+
+@stop
