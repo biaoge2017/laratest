@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
 use App\Models\Category;
 use Auth;
+use App\Handlers\ImageUploadHandler;
 
 class TopicsController extends Controller {
 
@@ -15,8 +16,8 @@ class TopicsController extends Controller {
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-   public function index(Request $request, Topic $topic){
-         $topics = $topic->withOrder($request->order)->paginate(20);
+    public function index(Request $request, Topic $topic) {
+        $topics = $topic->withOrder($request->order)->paginate(20);
         return view('topics.index', compact('topics'));
     }
 
@@ -25,12 +26,12 @@ class TopicsController extends Controller {
     }
 
     public function create(Topic $topic) {
-         $categories = Category::all();
-        return view('topics.create_and_edit', compact('topic','categories'));
+        $categories = Category::all();
+        return view('topics.create_and_edit', compact('topic', 'categories'));
     }
 
-    public function store(TopicRequest $request,Topic $topic) {
-         $topic->fill($request->all());
+    public function store(TopicRequest $request, Topic $topic) {
+        $topic->fill($request->all());
         $topic->user_id = Auth::id();
         $topic->save();
         return redirect()->route('topics.show', $topic->id)->with('message', 'Created successfully.');
@@ -53,6 +54,23 @@ class TopicsController extends Controller {
         $topic->delete();
 
         return redirect()->route('topics.index')->with('message', 'Deleted successfully.');
+    }
+
+    public function uploadImage(Request $request, ImageUploadHandler $uploader) {
+        $data = ['success' => 'false',
+            'msg' => 'shibai',
+            'file_path' => ''];
+        if ($file = $request->upload_file) {
+            // 保存图片到本地
+            $result = $uploader->save($request->upload_file, 'topics', \Auth::id(), 1024);
+            // 图片保存成功的话
+            if ($result) {
+                $data['file_path'] = $result['path'];
+                $data['msg'] = "上传成功!";
+                $data['success'] = true;
+            }
+        }
+        return $data;
     }
 
 }
