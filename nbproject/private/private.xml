@@ -4,33 +4,21 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/E:/largon/laragon/www/laratest/app/Models/User.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Observers/TopicObserver.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/config/database.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Models/Topic.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_topic_list.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/_header.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/.env</file>
-            <file>file:/E:/largon/laragon/www/laratest/database/factories/TopicFactory.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/database/seeds/TopicsTableSeeder.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/UsersController.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/database/seeds/UsersTableSeeder.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/config/app.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/login.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Middleware/VerifyCsrfToken.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/show.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Http/Requests/TopicRequest.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_reply_list.blade.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/register.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Providers/AuthServiceProvider.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Policies/UserPolicy.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/routes/web.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/RepliesController.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/users/show.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/config/auth.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/database/seeds/DatabaseSeeder.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/index.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Handlers/ImageUploadHandler.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/create_and_edit.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/TopicsController.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/webpack.mix.js</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Providers/AppServiceProvider.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/users/_topics.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/app.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/users/_replies.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/UsersController.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Middleware/TrustProxies.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/config/app.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_sidebar.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/login.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_reply_box.blade.php</file>
         </group>
     </open-files>
 </project-private>
