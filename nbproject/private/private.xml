@@ -3,20 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Requests/UserRequest.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Notifications/TopicReplied.php</file>
             <file>file:/E:/largon/laragon/www/laratest/app/Models/User.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Http/Middleware/VerifyCsrfToken.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/database/migrations/2018_08_30_113851_create_notifications_table.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/show.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_reply_list.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/register.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Requests/TopicRequest.php</file>
             <file>file:/E:/largon/laragon/www/laratest/routes/web.php</file>
             <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/RepliesController.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/users/show.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/layouts/app.blade.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/users/_replies.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Models/Reply.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Http/Requests/ReplyRequest.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/database/migrations/2018_08_30_114124_add_notification_count_to_users_table.php</file>
             <file>file:/E:/largon/laragon/www/laratest/app/Http/Controllers/UsersController.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/app/Http/Middleware/TrustProxies.php</file>
             <file>file:/E:/largon/laragon/www/laratest/config/app.php</file>
-            <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_sidebar.blade.php</file>
+            <file>file:/E:/largon/laragon/www/laratest/app/Observers/ReplyObserver.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/auth/login.blade.php</file>
             <file>file:/E:/largon/laragon/www/laratest/resources/views/topics/_reply_box.blade.php</file>
         </group>
