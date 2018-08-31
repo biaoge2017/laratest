@@ -58,11 +58,12 @@ class RepliesController extends Controller
 		return redirect()->route('replies.show', $reply->id)->with('message', 'Updated successfully.');
 	}
 
-	public function destroy(Reply $reply)
-	{
-		$this->authorize('destroy', $reply);
-		$reply->delete();
-
-		return redirect()->route('replies.index')->with('message', 'Deleted successfully.');
-	}
+            public function destroy(Reply $reply)
+    {
+        $this->authorize('destroy', $reply);
+        $reply->delete();
+      
+       
+        return redirect()->to($reply->topic->link())->with('success', '成功删除回复！');
+    }
 }
