@@ -9,8 +9,8 @@ return [
 
     'permission'=> function()
     {
-       // return Auth::user()->can('manage_users');
-    return true;
+       return Auth::user()->can('manage_users');
+    //return true;
     },
 
     'columns' => [
